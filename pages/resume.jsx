@@ -54,7 +54,11 @@ const resume = () => {
           computing, now expanding my prospective as a software developer,
           interested in making a long-term commitment to my next position with a
           company where I can continue to grow and take on new challenges over
-          time..
+          time.
+          <br />
+          Kwiekuma Ridge, Sekondi, Ghana. | M.C. 2240, Takoradi | Email:
+          avioncent@yahoo.com | Nationality: Ghanaian | Phone: (+233) 547 - 301
+          - 632 / 262 - 756 – 294)
         </p>
 
         {/* Skills */}

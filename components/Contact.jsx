@@ -11,6 +11,7 @@ import { doc, setDoc, collection } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { BallTriangle } from "react-loader-spinner";
 import "react-toastify/dist/ReactToastify.css";
+import { MdContactMail, MdLocalPhone } from "react-icons/md";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
@@ -102,8 +103,18 @@ const Contact = () => {
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
+                <div>
+                  <div className="flex items-center justify-start">
+                    <MdContactMail title="Back" />{" "}
+                    <span className="ml-3">avioncent@yahoo.com</span>
+                  </div>
+                  <div className="flex items-center justify-start">
+                    <MdLocalPhone title="Back" />{" "}
+                    <span className="ml-3">(+233)-547-301-632 / 262756294</span>
+                  </div>
+                </div>
               </div>
-              <div>
+              {/* <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
@@ -136,7 +147,7 @@ const Contact = () => {
                     </a>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -203,7 +214,7 @@ const Contact = () => {
                     <BallTriangle color="orange" height={100} width={100} />
                   </div>
                 ) : (
-                  <button className="w-full p-4 text-gray-100 mt-4">
+                  <button className="w-full p-4 text-gray-100 mt-10 ">
                     Send Message
                   </button>
                 )}

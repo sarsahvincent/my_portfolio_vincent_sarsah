@@ -53,7 +53,7 @@ const Projects = () => {
           <ProjectItem
             title="Food Delivery App Front-End"
             backgroundImg={Food1}
-            projectUrl="/food-delivery-app-front-end"
+            projectUrl="/food_delivery_app_front_end"
             tech="React Native"
           />
           <ProjectItem
