@@ -3,6 +3,7 @@ import React from "react";
 import propertyImg from "../public/assets/projects/login.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 const property = () => {
   return (
@@ -86,7 +87,15 @@ const property = () => {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <a>
+            <div
+              className="rounded-full flex flex-row items-center 
+            justify-around shadow-lg shadow-gray-400 p-2 cursor-pointer
+             hover:scale-110 ease-in duration-300 w-20"
+            >
+              <IoMdArrowRoundBack size="2em" title="Back" />
+            </div>
+          </a>
         </Link>
       </div>
     </div>

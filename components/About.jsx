@@ -21,8 +21,9 @@ const About = () => {
             Vincent Andoh Sarsah is a front-end web and mobile application
             developer with about two years of experience. I have worked on
             multiple projects, including: Freelance platform, E-commerce
-            platform,Church Management System, and Employee Management System
-            (Web, Mobile: cross-platform).
+            platform,Church Management System, Mobile Food Delivery
+            Applications, and Employee Management System (Web, Mobile:
+            cross-platform).
           </p>
 
           <Link href="/#projects">
@@ -34,7 +35,7 @@ const About = () => {
           <div>
             <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
               <a
-                href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                href="https://www.linkedin.com/in/vincent-andoh-sarsah-a31102195/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,7 +44,7 @@ const About = () => {
                 </div>
               </a>
               <a
-                href="https://github.com/fireclint"
+                href="https://github.com/sarsahvincent"
                 target="_blank"
                 rel="noreferrer"
               >
