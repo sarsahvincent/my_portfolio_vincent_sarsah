@@ -19,9 +19,11 @@ const Main = () => {
           </h1>
           <h4 className="py-2 text-gray-500">Front-End Web &</h4>
           <h4 className="py-2 text-gray-500">Mobile App Developer</h4>
-          <button className="bg-yellow-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-            HIRE ME
-          </button>{" "}
+          <Link href="/#contact">
+            <button className="bg-yellow-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              HIRE ME
+            </button>
+          </Link>
         </div>
         <div
           style={{ width: "40rem" }}
