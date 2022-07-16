@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/WhatsApp Image 2022-07-13 at 1.55.16 PM.jpeg";
+import ContactImg from "../public/assets/sarsah.jpeg";
 import { ToastContainer, toast } from "react-toastify";
 import { doc, setDoc, collection } from "firebase/firestore";
 import { db } from "../firebase.config";
@@ -114,7 +114,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              {/* <div>
+              <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
@@ -147,7 +147,7 @@ const Contact = () => {
                     </a>
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
 
