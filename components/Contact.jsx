@@ -96,7 +96,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Vinent Sarsah</h2>
+                <h2 className="py-2">Vincent Sarsah</h2>
                 <p>Front-End Developer</p>
                 <p>Mobile Application Developer</p>
                 <p className="py-4">
