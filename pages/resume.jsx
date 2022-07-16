@@ -67,13 +67,13 @@ const resume = () => {
             <span className="px-2">|</span> HTML <span className="px-2">|</span>
             CSS <span className="px-2">|</span>React{" "}
             <span className="px-2">|</span>React Native{" "}
-            <span className="px-2">|</span> NextJs{" "}
+            <span className="px-2">|</span> NextJS{" "}
             <span className="px-2">|</span>Redux <span className="px-2">|</span>
             Bootstrap <span className="px-2">|</span>Material Ui{" "}
             <span className="px-2">|</span>Adobe Photoshop{" "}
             <span className="px-2">|</span>Adobe Illustrator{" "}
             <span className="px-2">|</span>Adobe Xd
-            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span>Tailwindcss
             <span className="px-2">|</span> Firebase
           </p>
         </div>
