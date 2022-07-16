@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Shine from "../public/assets/projects/shine.png";
+import Shine from "../public/assets/projects/cart.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { IoMdArrowRoundBack } from "react-icons/io";
