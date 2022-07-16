@@ -70,7 +70,7 @@ const resume = () => {
             <span className="px-2">|</span> NextJs{" "}
             <span className="px-2">|</span>Redux <span className="px-2">|</span>
             Bootstrap <span className="px-2">|</span>Material Ui{" "}
-            <span className="px-2">|</span>Adober Photoshop{" "}
+            <span className="px-2">|</span>Adobe Photoshop{" "}
             <span className="px-2">|</span>Adobe Illustrator{" "}
             <span className="px-2">|</span>Adobe Xd
             <span className="px-2">|</span>Tailwind
@@ -94,7 +94,7 @@ const resume = () => {
             <li> Ensure the technical feasibility of UI/UX designs</li>
             <li> Optimize application for maximum speed and scalability.</li>
             <li>
-              Essure that all user input is validated before submitting to
+              Ensuring that all user input is validated before submitting to
               back-end.{" "}
             </li>
             <li> Collaborate with other team members and stakeholders.</li>
