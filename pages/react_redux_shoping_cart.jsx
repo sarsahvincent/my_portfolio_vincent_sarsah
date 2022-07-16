@@ -33,7 +33,7 @@ const shoping = () => {
           </p>
 
           <a
-            href="https://shopping-chart-97619.web.app/"
+            href="https://shopping-chart-97619.firebaseapp.com/"
             target="_blank"
             rel="noreferrer"
           >
