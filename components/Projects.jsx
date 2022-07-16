@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-
 import Dashboard from "../public/assets/projects/Dashboard1.png";
 import LeaveHistory from "../public/assets/projects/LeaveHistory.png";
 import ShopingCart from "../public/assets/projects/shoping_cart.png";

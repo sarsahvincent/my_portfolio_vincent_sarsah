@@ -1,11 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import AboutImg from "../public/assets/Vincent_Andoh_Sarsah.png";
 
 const About = () => {
   return (
