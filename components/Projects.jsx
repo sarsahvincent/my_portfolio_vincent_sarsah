@@ -6,6 +6,7 @@ import Shine from "../public/assets/projects/shine.png";
 import Staff from "../public/assets/projects/staff1.png";
 import Food1 from "../public/assets/projects/food1.png";
 import Food2 from "../public/assets/projects/food2.png";
+import Scrappy from "../public/assets/projects/scrappy.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -58,6 +59,12 @@ const Projects = () => {
             backgroundImg={Food2}
             projectUrl="/food_delivery_app"
             tech="React Native"
+          />
+          <ProjectItem
+            title="Scrappy Consult"
+            backgroundImg={Scrappy}
+            projectUrl="/scrappy_consult"
+            tech="React"
           />
         </div>
       </div>
