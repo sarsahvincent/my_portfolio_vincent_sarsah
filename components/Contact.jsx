@@ -16,7 +16,6 @@ import { MdContactMail, MdLocalPhone } from "react-icons/md";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 const date = new Date().toISOString().slice(0, 10);
-
 const Contact = () => {
   const showAllToastsSuccess = (msg) => {
     toast.success(`${msg}`);
