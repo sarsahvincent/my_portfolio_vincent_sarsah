@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/sarsah.jpeg";
 import { ToastContainer, toast } from "react-toastify";
-import { doc, setDoc, collection } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { BallTriangle } from "react-loader-spinner";
 import "react-toastify/dist/ReactToastify.css";
