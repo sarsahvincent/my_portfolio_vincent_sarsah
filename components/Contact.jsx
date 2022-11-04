@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/sarsah.jpeg";
+import ContactImg from "../public/assets/contact_photo.png";
 import { ToastContainer, toast } from "react-toastify";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebase.config";
