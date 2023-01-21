@@ -77,12 +77,12 @@ const Projects = () => {
             projectUrl="/scrappy_consult"
             tech="React"
           />
-          <ProjectItem
+       {/*    <ProjectItem
             title="Cleaning Services"
             backgroundImg={Shine}
             projectUrl="/shine_cleaning_services"
             tech="Next JS"
-          />
+          /> */}
         </div>
       </div>
     </div>
