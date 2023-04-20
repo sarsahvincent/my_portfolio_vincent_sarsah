@@ -38,7 +38,7 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Mobile Development <span className="px-1">|</span> Web Development{" "}
+              Mobile Development <span className="px-1">|</span> Web Development
               <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
@@ -49,12 +49,16 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Molecular Biology and Biotechnology graduate with background in
-          medical and industrial biotechnology, biosafety, microbiology, and
-          computing, now expanding my prospective as a software developer,
-          interested in making a long-term commitment to my next position with a
-          company where I can continue to grow and take on new challenges over
-          time.
+          Experienced Front End Software Developer with a passion for developing
+          innovative programs that expedite the efficiency and effectiveness of
+          organizational success. Well-versed in technology and writing code to
+          create systems that are reliable and user-friendly. A skilled leader
+          who has the proven ability to motivate, educate and manage a team of
+          professionals to build software programs and effectively track
+          changes. Confident communicator, strategic thinker, and innovative
+          creator to develop software that is customized to meet a company’s
+          organizational needs, highlight its core competencies, and further its
+          success.
         </p>
 
         {/* Skills */}
@@ -65,16 +69,18 @@ const resume = () => {
             <span className="px-2">|</span>Front-End Web Developer
             <span className="px-2">|</span> Mobile Application Developer
             <span className="px-2">|</span> HTML <span className="px-2">|</span>
-            CSS <span className="px-2">|</span>React{" "}
-            <span className="px-2">|</span>React Native{" "}
-            <span className="px-2">|</span> NextJS{" "}
+            CSS <span className="px-2">|</span>React
+            <span className="px-2">|</span>React Native
+            <span className="px-2">|</span> NextJS
             <span className="px-2">|</span>Redux <span className="px-2">|</span>
-            Bootstrap <span className="px-2">|</span>Material Ui{" "}
-            <span className="px-2">|</span>Adobe Photoshop{" "}
-            <span className="px-2">|</span>Adobe Illustrator{" "}
+            Bootstrap <span className="px-2">|</span>Material Ui
+            <span className="px-2">|</span>Adobe Photoshop
+            <span className="px-2">|</span>Adobe Illustrator
             <span className="px-2">|</span>Adobe Xd
             <span className="px-2">|</span>Tailwindcss
             <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span> Git
+            <span className="px-2">|</span> Jira
           </p>
         </div>
 
@@ -89,13 +95,13 @@ const resume = () => {
           </p>
           <p className="py-1 italic">Front-End Developer(2019 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li> Develop new user-facing features.</li>
+            <li> Develop new user-interfacing features.</li>
             <li> Build reusable code and libraries for future use.</li>
             <li> Ensure the technical feasibility of UI/UX designs</li>
             <li> Optimize application for maximum speed and scalability.</li>
             <li>
               Ensuring that all user input is validated before submitting to
-              back-end.{" "}
+              back-end.
             </li>
             <li> Collaborate with other team members and stakeholders.</li>
           </ul>
