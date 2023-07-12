@@ -9,6 +9,7 @@ import Food2 from "../public/assets/projects/food2.png";
 import Phone from "../public/assets/projects/phone_app.jpg";
 import Scrappy from "../public/assets/projects/scrappy.png";
 import CryptoSite from "../public/assets/projects/crypto.png";
+import Inventory from "../public/assets/projects/dash_board.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -33,11 +34,12 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="React-Redux Shoping Cart"
-            backgroundImg={ShopingCart}
-            projectUrl="/react_redux_shoping_cart"
-            tech="React JS"
+            title="Inventory System"
+            backgroundImg={Inventory}
+            projectUrl="/inventory_management"
+            tech="React TypeScript"
           />
+      
 
           <ProjectItem
             title="Algo CryptoSite"
@@ -77,6 +79,13 @@ const Projects = () => {
             projectUrl="/scrappy_consult"
             tech="React"
           />
+            <ProjectItem
+            title="React-Redux Shoping Cart"
+            backgroundImg={ShopingCart}
+            projectUrl="/react_redux_shoping_cart"
+            tech="React JS"
+          />
+
        {/*    <ProjectItem
             title="Cleaning Services"
             backgroundImg={Shine}
