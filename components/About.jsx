@@ -15,7 +15,7 @@ const About = () => {
 
           <p className="py-2 text-gray-600 text-xl">
             Vincent Andoh Sarsah is a front-end web and mobile application
-            developer with about two years of experience. I have worked on
+            developer with about three years of experience. I have worked on
             multiple projects, including: Freelance platform, E-commerce
             platform,Church Management System, Mobile Food Delivery
             Applications, and Employee Management System (Web, Mobile:

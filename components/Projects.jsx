@@ -39,14 +39,13 @@ const Projects = () => {
             projectUrl="/inventory_management"
             tech="React TypeScript"
           />
-      
-
-          <ProjectItem
+    
+        {/*   <ProjectItem
             title="Algo CryptoSite"
             backgroundImg={CryptoSite}
             projectUrl="/crypto"
             tech="React"
-          />
+          /> */}
           <ProjectItem
             title="Employee Staff App"
             backgroundImg={Staff}
@@ -79,12 +78,12 @@ const Projects = () => {
             projectUrl="/scrappy_consult"
             tech="React"
           />
-            <ProjectItem
+        {/*     <ProjectItem
             title="React-Redux Shoping Cart"
             backgroundImg={ShopingCart}
             projectUrl="/react_redux_shoping_cart"
             tech="React JS"
-          />
+          /> */}
 
        {/*    <ProjectItem
             title="Cleaning Services"
