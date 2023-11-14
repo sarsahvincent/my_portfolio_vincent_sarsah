@@ -150,8 +150,8 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
-                  target="_blank"
+                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                    target="_blank"
                   rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -159,8 +159,8 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
-                  target="_blank"
+                    href="https://github.com/sarsahvincent"
+                    target="_blank"
                   rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
