@@ -20,7 +20,7 @@ const resume = () => {
           <h2 className="text-center">Vincent Andoh Sarsah</h2>
           <div className="flex">
             <a
-              href="https://www.linkedin.com/in/vincent-andoh-sarsah-a31102195/"
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,16 +49,14 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Experienced Front End Software Developer with a passion for developing
+          Experienced Front End Software Developer passionate about developing
           innovative programs that expedite the efficiency and effectiveness of
-          organizational success. Well-versed in technology and writing code to
-          create systems that are reliable and user-friendly. A skilled leader
-          who has the proven ability to motivate, educate and manage a team of
-          professionals to build software programs and effectively track
-          changes. Confident communicator, strategic thinker, and innovative
-          creator to develop software that is customized to meet a company’s
-          organizational needs, highlight its core competencies, and further its
-          success.
+          organizational success. Well-versed in numerous programming languages,
+          including HTML5, CSS, OOP, JavaScript, Typescript, and Python. A
+          skilled leader with the proven ability to motivate, educate, and
+          manage a team of professionals to build software programs and
+          effectively track changes. I am looking for new and exciting
+          programming challenges.
         </p>
 
         {/* Skills */}
@@ -72,11 +70,16 @@ const resume = () => {
             CSS <span className="px-2">|</span>React
             <span className="px-2">|</span>React Native
             <span className="px-2">|</span> NextJS
+            <span className="px-2">|</span> Node JS
+            <span className="px-2">|</span> Python
+            <span className="px-2">|</span> Django
+            <span className="px-2">|</span> Mongo DB
             <span className="px-2">|</span>Redux <span className="px-2">|</span>
             Bootstrap <span className="px-2">|</span>Material Ui
             <span className="px-2">|</span>Adobe Photoshop
             <span className="px-2">|</span>Adobe Illustrator
             <span className="px-2">|</span>Adobe Xd
+            <span className="px-2">|</span> Figma
             <span className="px-2">|</span>Tailwindcss
             <span className="px-2">|</span> Firebase
             <span className="px-2">|</span> Git
@@ -95,7 +98,29 @@ const resume = () => {
           </p>
           <p className="py-1 italic">Front-End Developer(2019 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li> Develop new user-interfacing features.</li>
+            <li>
+              Collaborate closely with designers to develop a sleek interface
+              and ensure user-friendly, intuitive interactions and experience.
+            </li>
+            <li>
+              Ensure that all user inputs are validated before submitting to the
+              back-end.
+            </li>
+            <li> Optimize application for maximum speed and scalability.</li>
+            <li> Develop project concepts and maintain optimal workflow.</li>
+            <li>
+              Collaborate with senior developers to manage large, complex design
+              projects for corporate clients.
+            </li>
+            <li>
+              Complete detailed programming and development tasks for front-end
+              public and internal websites and challenging back-end server code.
+            </li>
+            <li>
+              Carry out quality assurance tests to discover errors and optimize
+              usability.
+            </li>
+
             <li> Build reusable code and libraries for future use.</li>
             <li> Ensure the technical feasibility of UI/UX designs</li>
             <li> Optimize application for maximum speed and scalability.</li>
@@ -107,7 +132,7 @@ const resume = () => {
           </ul>
         </div>
         {/* Experience */}
-        <div className="py-6">
+        {/* <div className="py-6">
           <p className="italic">
             <span className="font-bold">Medical Laboratory Scientist</span>
             <span className="px-2">|</span>Apinto Government Hospital, Tarkwa,
@@ -150,7 +175,7 @@ const resume = () => {
               H-Pylori and Pregnancy.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
