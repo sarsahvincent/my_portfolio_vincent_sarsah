@@ -8,6 +8,7 @@ import Food1 from "../public/assets/projects/food1.png";
 import Food2 from "../public/assets/projects/food2.png";
 import Phone from "../public/assets/projects/phone_app.jpg";
 import Scrappy from "../public/assets/projects/scrappy.png";
+import EduDashboard from "../public/assets/projects/edu_dashboard.png";
 import CryptoSite from "../public/assets/projects/crypto.png";
 import Inventory from "../public/assets/projects/dash_board.png";
 import ProjectItem from "./ProjectItem";
@@ -22,6 +23,12 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Educational Management System"
+            backgroundImg={EduDashboard}
+            projectUrl="/education_management"
+            tech="Next JS TypeScript"
+          />
+          <ProjectItem
             title="Employee Management System"
             backgroundImg={LeaveHistory}
             projectUrl="/employee_management"
@@ -33,25 +40,21 @@ const Projects = () => {
             projectUrl="/dgm_youth"
             tech="React JS"
           />
+        
           <ProjectItem
             title="Inventory System"
             backgroundImg={Inventory}
             projectUrl="/inventory_management"
             tech="React TypeScript"
           />
-    
-        {/*   <ProjectItem
+
+          {/*   <ProjectItem
             title="Algo CryptoSite"
             backgroundImg={CryptoSite}
             projectUrl="/crypto"
             tech="React"
           /> */}
-          <ProjectItem
-            title="Employee Staff App"
-            backgroundImg={Staff}
-            projectUrl="/employee_staff_app"
-            tech="React Native"
-          />
+
           <ProjectItem
             title="Phone Shoppings App"
             backgroundImg={Phone}
@@ -71,21 +74,27 @@ const Projects = () => {
             projectUrl="/food_delivery_app"
             tech="React Native"
           />
-
           <ProjectItem
+            title="Employee Staff App"
+            backgroundImg={Staff}
+            projectUrl="/employee_staff_app"
+            tech="React Native"
+          />
+
+          {/* <ProjectItem
             title="Scrappy Consult"
             backgroundImg={Scrappy}
             projectUrl="/scrappy_consult"
             tech="React"
-          />
-        {/*     <ProjectItem
+          /> */}
+          {/*     <ProjectItem
             title="React-Redux Shoping Cart"
             backgroundImg={ShopingCart}
             projectUrl="/react_redux_shoping_cart"
             tech="React JS"
           /> */}
 
-       {/*    <ProjectItem
+          {/*    <ProjectItem
             title="Cleaning Services"
             backgroundImg={Shine}
             projectUrl="/shine_cleaning_services"
